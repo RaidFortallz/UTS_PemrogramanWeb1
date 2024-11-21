@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+        }
+
+        .btn-class {
+            width: 10rem;
+            background-color: #FFF;
+            color: #9227fc;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-class:hover {
+            background-color: #9227fc;
+            color: #FFF;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Informasi Perusahaan</h1>
+        <a href="login.html" class="btn btn-class mt-3 col-12 fs-5">LOGIN</a>
+    </header>
+
+    <div class="container mt-5">
+        <h2>List Informasi Perusahaan</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/museum.png" class="card-img-top" alt="Info 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sejarah Perusahaan</h5>
+                        <p class="card-text">Perusahaan kami didirikan pada tahun 2000 dengan tujuan untuk memberikan
+                            solusi inovatif di bidang teknologi informasi. Dengan lebih dari 20 tahun pengalaman, kami
+                            telah berkembang menjadi pemimpin pasar di industri ini, dengan menyediakan layanan dan
+                            produk berkualitas tinggi yang mendukung keberhasilan bisnis para pelanggan kami.</p>
+                        <a href="hal_detail.php?info=1" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/business.png" alt="Info 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Produk dan Layanan Kami</h5>
+                        <p class="card-text">Kami menawarkan berbagai produk dan layanan yang dirancang untuk
+                            meningkatkan produktivitas dan efisiensi bisnis. Beberapa produk utama kami termasuk
+                            perangkat lunak manajemen proyek, solusi keamanan siber, dan layanan cloud computing. Semua
+                            produk kami didukung oleh tim ahli yang siap membantu Anda 24/7.</p>
+                        <a href="hal_detail.php?info=2" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/popular.png" alt="Info 3" class="card-img-top img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">Sertifikasi dan Penghargaan</h5>
+                        <p class="card-text">Kami sangat bangga dengan pengakuan industri yang telah kami terima.
+                            Beberapa sertifikasi dan penghargaan yang kami peroleh meliputi standar kualitas ISO 9001
+                            dan penghargaan sebagai perusahaan teknologi terkemuka di Asia Tenggara oleh Majalah
+                            TechWorld pada tahun 2023.</p>
+                        <a href="hal_detail.php?info=3" class="btn btn-primary">Lihat Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-3 mt-5">
+        <p>&copy;Copyright by 22552011263_M DIMAS DANISWARA PUTRA_TIF RP 22 CNS</p>
+    </footer>
+
+</body>
+
+</html>

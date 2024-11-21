@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.img{
+    width: 5rem;
+    padding-left: 20px;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #b871ff, #9227fc);
+    padding: 0 !important;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #FFF !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* CSS BUAT BANNER */
+#banner{
+    background-image: linear-gradient(to right, #b871ff, #9227fc);
+    color: #FFF;
+   
+}
+
+.container{
+    padding: 5% 5% 0 5%;
+}
+
+.img_home{
+    width: 30rem;
+}
+
+.img_bottom{
+    width: 100%;
+}
+
+footer{
+    background-image: linear-gradient(to right, #b871ff, #9227fc);
+}
+
+.img_footer{
+    width: 100%;
+}
